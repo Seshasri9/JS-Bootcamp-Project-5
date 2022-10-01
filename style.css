@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    height: 100%;
+    margin-top: -30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.navbar{
+    margin: 30px 50px;
+}
+
+.list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 500px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.list-item{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    padding: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button-small{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(236, 74, 236);
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    margin-left: -300px;
+    margin-top: 10px;
+    /* margin-right: 400px; */
+    /* margin-top: -10px; */
+}
+
+.logo{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.line{ 
+    width:1px; 
+    height: 65px; 
+    background: #fff;
+    margin-left: 50px; 
+    color: white;
+}
+
+body{ background: url(./assets/bg.png); 
+    background-size: cover;  
+    color:#fff; 
+}
+
+.hero-heading{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 60px;
+    color: white;
+}
+
+.hero-description{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: white;
+}
+
+.button-large{
+    padding: 10px 50px;
+    color: white;
+    background-color: rgb(124, 3, 124);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
